@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.flex-first {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 0.3rem;
+}
+
+.entry-link {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+.entries-link{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black ;
+}
+
+.entries-link:visited {
+    color: black !important;
+}
+
+
+
+.form-input {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.input-feeling {
+    font-size: 1.1em;
+    padding-left: 5px;
+}
+
+input {
+    display: flex;
+}
+
+.form-input label {
+    font-size: 1.3em;
+}
+
+.diary-content {
+    font-size: 1.5em;
+    padding-top: .2rem;
+    padding-bottom: 5rem;
+    padding-left: .5rem;
+    width: 75vw;
+}
+
+input {
+    height: 30px;
+}
+
+.submit-btn {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-left: 80vw;
+    margin-top: 10px;
+}

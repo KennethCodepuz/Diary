@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>The Thoughts I Never Utter</h1>
+    </header>
+    <hr>
+    <section>
+        <form id="input" class="form-input">
+            <div class="flex-first">
+                <label for="date" class="date-label">Date: </label>
+                <input type="date" id="date" class="date">
+                <label for="inputFeeling" class="feeling-label">Your Mood: </label>
+                <input type="text" id="inputFeeling" class="input-feeling">
+                <div class="entry-link">
+                    <a href="entries.html" class="entries-link" target="_blank">View Entries</a>
+                </div>
+            </div>
+            <label for="diaryInput" class="diary-label">What happened today? </label>
+            <textarea rows="100" cols="50" id="diaryInput" class="diary-content">Dear Diary, </textarea>
+        </form>
+        
+    </section>
+    <div class="btn-container">
+        <button id="submit-btn" class="submit-btn">Submit Entry</button>
+    </div> 
+
+    <script src="../index.js"></script>
+</body>
+</html>
